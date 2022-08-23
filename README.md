@@ -1,7 +1,7 @@
 # Meetup-Hubs-Kafka
 
 Publish an event as shown below line by line.
-
+```
 {"utc_offset":3600000,
   "venue":{"country":"de",
   "city":"Munchen",
@@ -38,5 +38,5 @@ Publish an event as shown below line by line.
 \/a\/thumb_438692778.jpeg"},
   "group_lat":48.14},
   "status":"upcoming"}
-  
+ ```
   Created Kafka Stream for the filtering. The first filters the output stream down to Germany. The second filters down the output to just Munich.
